@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/data-integrity/v2",
+        "https://w3id.org/blockcerts/v3.1"
+    ],
+    "id": "urn:uuid:48a855f7-1465-4d67-b5bb-3e20c9d57b60",
+    "type": [
+        "VerifiableCredential",
+        "Assertion"
+    ],
+    "issuer": "http://localhost:3000/issuer/issuer_profile.json",
+    "issuanceDate": "2024-06-04T03:41:18.633Z",
+    "nonce": "",
+    "credentialSubject": {
+        "id": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJkaWQ6ZXRocjoweDNjMTAyQTRiNDg4N0JEZTgyRDYzZjI2Yjc5ZGRlMDc1NkRFRTE2QjkiLCJuYW1lIjoidVBvcnQgRGV2ZWxvcGVyIiwiaXNzIjoiZGlkOmV0aHI6MHgzYzEwMkE0YjQ4ODdCRGU4MkQ2M2YyNmI3OWRkZTA3NTZERUUxNkI5In0.NTch40VKd3gRnW2olf2MZ6V8FGyjmAlREiJ_Vcx2q_IHRMGEHXXeOa_IocfM6s2oV8qdYMQuIzTefzUFLzhvWQ",
+        "name": "Julien Fraichot",
+        "email": "julien.fraichot@hyland.com",
+        "publicKey": "ecdsa-koblitz-pubkey:3c102A4b4887BDe82D63f26b79dde0756DEE16B9",
+        "claim": {
+            "name": "Master of Puppets",
+            "description": "Awarded to those who rock"
+        }
+    },
+    "display": {
+        "contentMediaType": "text/html",
+        "content": "<html><body><h1>Some content</h1></body></html>"
+    },
+    "proof": {
+        "id": "urn:uuid:c086dc27-ca52-432d-874b-6bc462aa5abd",
+        "type": "DataIntegrityProof",
+        "cryptosuite": "merkle-proof-2019",
+        "proofPurpose": "assertionMethod",
+        "created": "2024-06-04T11:41:21.446811",
+        "proofValue": "znKD4YGVqA8texv49psF33qqRyCQPBa1uA33LCL7dPfJCimhnfRULPt4oS55Uihyx5eNnbMrntjxzFNX9BtjbzVBZsaYVbmahtwY452vBx3Fyn3Wq1cuy3r88z7nG86Ga172LEQzbPTm8hMHoLie1d1ndTe1hmWQsHoFYMdo1sEDnvBtLiQaWdRNsMH9DX4actLNTgoS7831nTEdWMm271Fs3C5viiZfPiz9hrhwZM7ukHC6Ed91fwRCmT59xEhCXS9qE2ypwkJRySVs4BZbMKh5J7P7CAPD4d13KocKhkq65EYTKXyf8xF7WKX",
+        "verificationMethod": null
+    }
+}
