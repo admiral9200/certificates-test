@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "email": "lion9200.world@gmail.com",
+  "ethereumAddress": "0x3c102A4b4887BDe82D63f26b79dde0756DEE16B9",
+  "createdDate": "2024-06-09T17:30:45.043Z",
+  "profileUrl": "",
+  "revocationList": "",
+  "image": "",
+  "publicJWK": {
+    "kty": "EC",
+    "crv": "secp256k1",
+    "x": "sbCL28pBble_1jmEGwRUWYnYC3VIqvwIDOlVC3mPcu8",
+    "y": "NN9vP6QHRku2B1G-iqDDumDD_LZ6yE4iI30FFVc5FRo"
+  }
+}
