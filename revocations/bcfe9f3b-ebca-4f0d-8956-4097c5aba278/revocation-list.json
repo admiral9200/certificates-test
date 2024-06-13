@@ -1,0 +1,7 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://raw.githubusercontent.com/admiral9200/certificates-test/main/revocations/bcfe9f3b-ebca-4f0d-8956-4097c5aba278/revocation-list.json",
+  "type": "RevocationList",
+  "issuer": "https://raw.githubusercontent.com/admiral9200/certificates-test/main/issuers/bcfe9f3b-ebca-4f0d-8956-4097c5aba278/profile.json",
+  "revokedAssertions": []
+}
